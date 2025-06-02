@@ -24,9 +24,13 @@ An AI-powered learning companion application that creates personalized learning 
    ```
    npm install
    ```
-3. Create a `.env.local` file in the root directory and add your Gemini API key:
+3. Create a `.env` file in the root directory and add your API keys:
    ```
-   NEXT_PUBLIC_GEMINI_API_KEY=your_api_key_here
+   NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here
+   GOOGLE_API_KEY=your_google_api_key_here
+   YOUTUBE_API_KEY=your_youtube_api_key_here
+   GOOGLE_SEARCH_API_KEY=your_google_search_api_key_here
+   GOOGLE_SEARCH_ENGINE_ID=your_search_engine_id_here
    ```
 
 ### Running the Application
